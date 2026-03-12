@@ -1,1 +1,31 @@
-
+body{
+    background-color:#F0A6CF;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+}
+h1{
+    background-color: #F056AB;
+    width:800px;
+    padding:30px;
+    border-left: 3px double whitesmoke;
+    border-right: 3px double whitesmoke;
+}
+h2{
+    font-size: 1.2em;
+    text-align:center;
+}
+img {
+    width:250x;
+    height:300px;
+    border-radius:10px;
+}
+sidebar{
+background-color: #F0A6CF;
+border: 3px solid white;
+padding: 12px;
+width: 235px;
+border-radius: 20px;
+float: right;
+margin: 30px 30px 0 15px;
+}
