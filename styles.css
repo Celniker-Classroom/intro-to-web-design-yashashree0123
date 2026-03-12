@@ -6,8 +6,8 @@ body{
 }
 h1{
     background-color: #F056AB;
-    width:800px;
-    padding:30px;
+    width:2000px;
+    padding:10px;
     border-left: 3px double whitesmoke;
     border-right: 3px double whitesmoke;
 }
@@ -16,7 +16,7 @@ h2{
     text-align:center;
 }
 img {
-    width:250x;
+    width:150px;
     height:300px;
     border-radius:10px;
 }
