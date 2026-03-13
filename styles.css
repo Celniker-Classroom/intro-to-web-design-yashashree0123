@@ -3,6 +3,7 @@ body{
     color: white;
     font-family:'Times New Roman', Times, serif;
     margin:0;
+    padding:12px;
 }
 h1{
     background-color: #F056AB;
@@ -16,9 +17,20 @@ h2{
     text-align:center;
 }
 img {
-    width:150px;
-    height:300px;
-    border-radius:10px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 12px;
+}
+#top-img {
+    width: 100px; 
+}
+
+#middle-img {
+    width: 250px;
+}
+#bottom-img {
+    width: 150px;
 }
 sidebar{
 background-color: #F0A6CF;
