@@ -45,7 +45,7 @@ font-size:1.05em;
 line-height:1.8;
 max-width:650px;
 text-align:left;
-word-wrap
+word-wrap:break-word;
 }
 
 a:link{
