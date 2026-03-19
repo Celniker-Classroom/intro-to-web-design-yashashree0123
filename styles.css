@@ -275,6 +275,13 @@ img{
  #container{
    width:95%;
  }
+   #pic1,#pic2,#pic3{
+     float:none;
+     display:block;
+     margin:0 auto 15px auto;
+   }
+ 
+
 
 
  .section-row,
@@ -301,16 +308,6 @@ img{
  #sidebar{
    max-width:100%;
  }
-}
-
-
-.deca-img{
- width:220;
- height:500px;
-}
-
-
-
 
 .richard-img{
  width:320px;
@@ -371,23 +368,6 @@ h3:hover{
  box-shadow:0 0 10px #fff, 0 0 20px #ec5fa2, 0 0 35px #d94d93;
 }
 
-@media (max-width: 1200px) {
- body{
-  font-size: 95%;
- }
-}
-
-@media (max-width: 900px) {
- body{
-  font-size: 90%;
- }
-}
-
-@media (max-width: 600px) {
- body{
-  font-size: 85%;
- }
-}
 
 #pic1{
   float: left;
@@ -401,3 +381,9 @@ h3:hover{
   float: left;
   margin: 10px 15px 10px 0;
 }
+
+.bio-text::after{
+ content:"";
+ display:block;
+ clear:both;
+} 
