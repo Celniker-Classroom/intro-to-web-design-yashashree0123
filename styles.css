@@ -371,3 +371,25 @@ h3:hover{
  box-shadow:0 0 10px #fff, 0 0 20px #ec5fa2, 0 0 35px #d94d93;
 }
 
+.bio-text img{
+  float:left;
+  max-resolution: 15px;
+}
+
+@media (max-width: 1200px) {
+ body{
+  font-size: 95%;
+ }
+}
+
+@media (max-width: 900px) {
+ body{
+  font-size: 90%;
+ }
+}
+
+@media (max-width: 600px) {
+ body{
+  font-size: 85%;
+ }
+}
