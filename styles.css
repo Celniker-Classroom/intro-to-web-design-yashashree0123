@@ -151,7 +151,7 @@ img{
  border:2px solid white;
  padding:26px;
  width:100%;
- max-width:440px;
+ max-width:650px;
  box-sizing:border-box;
  border-radius:20px;
  box-shadow:0 8px 20px rgba(0,0,0,0.2);
@@ -305,7 +305,7 @@ img{
 
 
 .deca-img{
- width:320px;
+ width:220;
  height:500px;
 }
 
@@ -347,8 +347,8 @@ h3:hover{
 
 
 #pic1{
- width:350px;
- height:450px;
+ width:200px;
+ height:auto;
 }
 
 
@@ -371,11 +371,6 @@ h3:hover{
  box-shadow:0 0 10px #fff, 0 0 20px #ec5fa2, 0 0 35px #d94d93;
 }
 
-.bio-text img{
-  float:left;
-  max-resolution: 15px;
-}
-
 @media (max-width: 1200px) {
  body{
   font-size: 95%;
@@ -392,4 +387,17 @@ h3:hover{
  body{
   font-size: 85%;
  }
+}
+
+#pic1{
+  float: left;
+  margin: 10px 15px 10px 0;
+}
+#pic2{
+  float: right;
+  margin: 10px 0 10px 15px;
+}
+#pic3{
+  float: left;
+  margin: 10px 15px 10px 0;
 }
