@@ -97,13 +97,14 @@ img{
 
 
 .intro-layout{
- display:flex;
- align-items:center;
- justify-content:center;
- gap:30px;
- margin:50px auto 20px auto;
- max-width:1000px;
- flex-wrap:wrap;
+display:flex;
+justify-content:center;
+align-items: center;
+gap: 30px;
+margin: 50px auto 0 auto;
+max-width:1000px;
+flex-wrap:wrap;
+overflow:hidden;
 }
 
 
@@ -150,12 +151,12 @@ img{
  background:rgba(255,255,255,0.55);
  border:2px solid white;
  padding:26px;
- width:100%;
- max-width:650px;
+ width:70%;
  box-sizing:border-box;
  border-radius:20px;
  box-shadow:0 8px 20px rgba(0,0,0,0.2);
  text-align:center;
+ margin: 0 auto;
 }
 
 
@@ -271,45 +272,6 @@ img{
 }
 
 
-@media (max-width:768px){
- #container{
-   width:95%;
- }
-   #pic1,#pic2,#pic3{
-     float:none;
-     display:block;
-     margin:0 auto 15px auto;
-   }
- 
-
-
-
- .section-row,
- .looking-ahead-row,
- .intro-layout{
-   flex-direction:column;
-   text-align:center;
- }
-
-
- .text-block h3{
-   text-align:center;
- }
-
-
- .wrap-img,
- .giraffe-img{
-   width:85%;
-   max-width:320px;
-   height:auto;
- }
-
-
- #sidebar{
-   max-width:100%;
- }
-}
-
 .richard-img{
  width:320px;
  height:300px;
@@ -388,3 +350,42 @@ h3:hover{
  display:block;
  clear:both;
 } 
+
+@media (max-width:768px) {
+ #container{
+   width:95%;
+ }
+   #pic1,#pic2,#pic3{
+     float:none;
+     display:block;
+     margin:0 auto 15px auto;
+   }
+   #sidebar{
+     width:90%;
+     margin: 20px auto;
+   }
+   #sidebar img{
+    float: none !important;
+     display:block;
+     margin: 0 auto 15px auto;
+   }
+   #sidebar #pic1{
+    float:none;
+     margin: 0 auto 15px auto;
+   }
+    .section-row,
+ .looking-ahead-row,
+ .intro-layout{
+   flex-direction:column;
+   text-align:center;
+ }
+ .text-block h3{
+   text-align:center;
+ }
+ .wrap-img,
+ .giraffe-img{
+   width:85%;
+   max-width:320px;
+   height:auto;
+ }
+}
