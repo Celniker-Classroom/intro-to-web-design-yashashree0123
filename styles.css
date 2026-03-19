@@ -195,13 +195,12 @@ img{
 
 .wrap-img:hover{
   transform:scale(1.03);
-  box-shadow:0 0 18px rgba(255,255,255,0.65), 0 0 28px rgb(220, 23, 85);
+  box-shadow:0 0 18px rgba(255,255,255,0.65), 0 0 28px rgba(209,125,152,0.75);
 }
 
 .giraffe-img{
-  width:500px;
-  height:auto;
-  max-width:80%;
+  width:340px;
+  height:400px;
 }
 
 @media (max-width:1200px){
@@ -215,9 +214,8 @@ img{
   }
 
   .giraffe-img{
-    width:380px;
-    height:auto;
-    max-width:80%;
+    width:300px;
+    height:360px;
   }
 }
 
@@ -267,87 +265,3 @@ img{
   }
 }
 
-.deca-img{
-  width:320px;
-  height:500px;
-}
-
-
-.richard-img{
-  width:320px;
-  height:300px;
-}
-
-h3{
-  transition: all 0.3s ease;
-}
-
-h3{
-  transition: text-shadow 0.3s ease;
-}
-
-h3:hover{
-  text-shadow:0 0 8px rgba(255,255,255,0.8), 0 0 16px rgb(236, 95, 162, 0.9), 0 0 24px rgb(212, 15, 114);
-}
-
-#pic1,
-#pic2,
-#pic3{
-  width:160px;
-  height:190px;
-  object-fit:cover;
-  border-radius:20px;
-  border:4px dotted #D17D98;
-  box-shadow:0 8px 20px rgba(0,0,0,0.25);
-  transition:transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#pic1{
-  width:350px;
-  height:450px;
-}
-
-#pic2{
-  width:375px;
-  height:300px;
-}
-
-#pic3{
-  width:300px;
-  height:250px;
-}
-
-#pic1:hover,
-#pic2:hover,
-#pic3:hover{
-  transform:scale(1.05);
-  box-shadow:0 0 10px #fff, 0 0 20px #ec5fa2, 0 0 35px #d94d93;
-}
-
-#pic1, #pic3{
-  float:left;
-  margin:10px 15px 10px 0;
-}
-
-#pic2{
-  float:right;
-  margin:10px 0 10px 15px;
-}
-
-.bio-text::after{
- content:"";
-  display:block;
-  clear:both;
-}
-
-#pic1{
-  float:left;
-}
-
-#pic2{
-  float:right;
-}
-
-#pic3{
-  float:left;
-} 
